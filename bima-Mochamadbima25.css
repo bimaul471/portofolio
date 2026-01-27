@@ -1,0 +1,17 @@
+/* Navbar scroll effect */
+#mainNavbar {
+  transition:
+    background-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#mainNavbar.scrolled {
+  background-color: rgba(232, 28, 28, 0.95);
+  box-shadow: 0 2px 10px rgba(153, 60, 60, 0.1);
+}
+
+/* Nav hover effect */
+.nav-link:hover {
+  color: #163768 !important;
+  transition: color 0.3s;
+}
